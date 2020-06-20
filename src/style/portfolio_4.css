@@ -81,7 +81,6 @@
 
 /* ------------------------------------------------------- */
 .portfolioContainerFull4 .portfolioBtn {
-  font-family: 'Cereal';
   font-weight: 600;
   width: 200px;
   text-align: center;
@@ -123,6 +122,10 @@
   color: #000000;
   line-height: 45px;
   border-radius: 15px; }
+.portfolioContainerFull4 .portfolioBtn:focus{
+    outline:0;
+  }
+
 
 .portfolioContainerFull4 .portfolioPage {
   width: 100%;
@@ -340,11 +343,9 @@
 
 .portfolioContainerFull4 .expansionExpanded {
   background-color: #f2f2f7 !important;
-  font-family: 'Cereal' !important;
   color: #000000; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelTitle {
-  font-family: 'Cereal' !important;
   color: #000000 !important;
   flex-basis: 60%;
   flex-shrink: 0;
@@ -356,28 +357,23 @@
   color: #000000 !important; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelSubTitle {
-  font-family: 'Cereal' !important;
   color: #152642;
   font-size: 13px;
   text-transform: capitalize; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelDetails {
-  font-family: 'Cereal' !important;
   border-radius: 10px !important;
   display: flex;
   flex-direction: column; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelWebsite {
-  font-family: 'Cereal' !important;
   margin-top: 0px; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelWebsite span {
-  font-family: 'Cereal' !important;
   font-weight: 600;
   text-transform: uppercase; }
 
 .portfolioContainerFull4 .portfolioExpansionPanelWebsite a {
-  font-family: 'Cereal' !important;
   color: #152642;
   text-decoration: none; }
 
@@ -498,7 +494,6 @@
   padding-bottom: 15px; }
 
 .portfolioContainerFull4 .portfolioExtraCard {
-  font-family: 'Cereal' !important;
   color: #b22222 !important;
   display: flex;
   margin-top: 50px;
@@ -509,22 +504,17 @@
   margin-right: 20px;
   background-color: #000000 !important; }
   .portfolioContainerFull4 .portfolioExtraCard h5 {
-    font-family: 'Cereal' !important;
-    font-weight: 900;
+    font-weight: 300;
     color: #000000 !important; }
-  .portfolioContainerFull4 .portfolioExtraCard .chip {
-    font-family: 'Cereal' !important; }
 
 .portfolioContainerFull4 .portfolioExtraDetails {
   background-color: #aeaeb2 !important;
-  font-family: 'Cereal' !important;
   color: #b22222 !important;
   display: flex;
   flex-direction: column;
   width: 300px; }
 
 .portfolioContainerFull4 .portfolioExtraContent {
-  font-family: 'Cereal' !important;
   color: #b22222 !important;
   display: flex;
   flex-direction: column; }
@@ -628,21 +618,14 @@
   background-color: #8f8f93;
   position: absolute;
   z-index: -1; }
-
-.portfolioContainerFull4 .awardDialog {
-  font-family: 'Cereal' !important; }
   .portfolioContainerFull4 .awardDialog .awardDialogTitle h2 {
-    font-family: 'Cereal' !important;
     font-weight: 900 !important;
     color: #000000; }
     .portfolioContainerFull4 .awardDialog .awardDialogTitle h2 p .portfolioAwardCompany {
-      font-family: 'Cereal' !important;
       font-weight: 900 !important;
       color: #4095bb; }
     .portfolioContainerFull4 .awardDialog .awardDialogTitle h2 p .portfolioAwardDate {
-      font-family: 'Cereal' !important;
       font-weight: 900 !important;
       color: #4095bb; }
   .portfolioContainerFull4 .awardDialog .awardDialogTitle {
-    font-family: 'Cereal' !important;
     font-weight: 900; }
