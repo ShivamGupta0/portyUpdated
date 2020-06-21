@@ -65,7 +65,7 @@ const Portfolio = ({
     if (!loading && profile !== null && !auth.loading && auth.isAuthenticated) {
         return (
             <div className="portfolioContainerFull6">
-                <Parallax pages={5.6}>
+                <Parallax pages={4.5}>
                     <ParallaxLayer
                         offset={0}
                         speed={0}
@@ -85,6 +85,14 @@ const Portfolio = ({
                         offset={3}
                         speed={0}
                         style={{ backgroundColor: '#424C5E' }}
+                    />
+                    <ParallaxLayer
+                        offset={4}
+                        speed={0}
+                        style={{
+                            backgroundColor: 'rgb(1, 0, 34)',
+                            opacity: 0.8,
+                        }}
                     />
 
                     <ParallaxLayer offset={0} speed={0}>

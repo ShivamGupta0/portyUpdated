@@ -11,38 +11,53 @@ const About = (props) => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
-  }, []);
+        if (window.innerWidth > 769) {
+            setIsDesktop(true);
+            setIsMobile(false);
+        } else {
+            setIsMobile(true);
+            setIsDesktop(false);
+        }
+    }, []);
     return (
-      <section id="about">
-    <Container>
-      <Title title="About Me" className="about-ti"/>
-      <Row className="about-wrapper">
-        <Col md={6} sm={12}>
-          <Fade bottom duration={1000} delay={600} distance="30px">
-            <div className="about-wrapper__image">
-              <img alt="profile" src={img} className="img-profile" />
-            </div>
-          </Fade>
-        </Col>
-        <Col md={6} sm={12}>
-          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-            <div className="about-wrapper__info">
-              <p className="about-wrapper__info-text">
-                {about}
-              </p>
-            </div>
-          </Fade>
-        </Col>
-      </Row>
-    </Container>
-  </section>
+        <section id="about">
+            <Container>
+                <Title title="About Me" className="about-ti" />
+                <Row className="about-wrapper">
+                    <Col md={6} sm={12}>
+                        <Fade
+                            bottom
+                            duration={1000}
+                            delay={600}
+                            distance="30px"
+                        >
+                            <div className="about-wrapper__image">
+                                <img
+                                    alt="profile"
+                                    src={img}
+                                    className="img-profile"
+                                />
+                            </div>
+                        </Fade>
+                    </Col>
+                    <Col md={6} sm={12}>
+                        <Fade
+                            left={isDesktop}
+                            bottom={isMobile}
+                            duration={1000}
+                            delay={1000}
+                            distance="30px"
+                        >
+                            <div className="about-wrapper__info">
+                                <p className="about-wrapper__info-text">
+                                    {about}
+                                </p>
+                            </div>
+                        </Fade>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
     );
 };
 
